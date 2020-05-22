@@ -21,25 +21,38 @@ and paste the settings to settings.json
 
 ```
 {
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 14,
-  "explorer.autoReveal": false,
-  "files.exclude": {
-    ".idea": true,
-    "node_modules": true,
-    "vendor": true
-  },
-  "explorer.openEditors.visible": 0, 
-  "editor.fontWeight": "500",
-  "editor.formatOnType": true,
-  "emmet.includeLanguages": {
-    "blade": "html",
-    "edge": "html",
-    "vue-html": "html",
-    "vue": "html"
-  },
-  "workbench.iconTheme": "material-icon-theme",
-  "breadcrumbs.enabled": false,
-  "files.autoSave": "onWindowChange"
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "files.exclude": {
+        ".idea": true,
+        ".vscode": true,
+        "composer.lock": true,
+        "node_modules": true,
+        "package-lock.json": true,
+        "yarn.lock": true
+    },
+    "explorer.openEditors.visible": 0,
+    "editor.fontWeight": "500",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "none",
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.25,
+    "explorer.decorations.colors": false,
+    "editor.suggestLineHeight": null,
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "explorer.autoReveal": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "emmet.includeLanguages": {
+        "vue": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "files.autoSave": "onWindowChange",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
 ```
