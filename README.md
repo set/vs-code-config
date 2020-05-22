@@ -1,19 +1,16 @@
 # Visual Studio Code Settings
 Install extensions
 ```
-code --install-extension andersonmfjr.vue-extension-pack
-code --install-extension andersonmfjr.vue-jumptotag
-code --install-extension andersonmfjr.vue-snippets-standardjs
-code --install-extension christian-kohler.npm-intellisense
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension felixfbecker.php-intellisense
-code --install-extension felixfbecker.php-pack
-code --install-extension killalau.vscode-liquid-snippets
-code --install-extension ms-vscode.Go
-code --install-extension neilding.language-liquid
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension MehediDracula.php-namespace-resolver
+code --install-extension monokai.theme-monokai-pro-vscode
 code --install-extension octref.vetur
+code --install-extension onecentlin.laravel-blade
+code --install-extension onecentlin.laravel5-snippets
 code --install-extension PKief.material-icon-theme
 ```
 
