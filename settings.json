@@ -1,67 +1,34 @@
 {
-  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-  "extensions.ignoreRecommendations": true,
-  "workbench.quickOpen.closeOnFocusLost": false,
-  "files.associations": {
-    "vue-html": "html",
-    "blade-php": "html"
-  },
-  "explorer.autoReveal": false,
-  "security.workspace.trust.untrustedFiles": "newWindow",
-  "editor.tabSize": 2,
-  "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "'Operator Mono', Monaco, 'Courier New', monospace",
-  "editor.fontWeight": "500",
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "yaml": false,
-    "solidity": true
-  },
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "eslint.format.enable": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "git.confirmSync": false,
-  "emmet.includeLanguages": {
-    "twig-html": "html",
-    "twig": "html"
-  },
-  "auto-close-tag.activationOnLanguage": [
-    "xml",
-    "php",
-    "blade",
-    "ejs",
-    "jinja",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "plaintext",
-    "markdown",
-    "vue",
-    "liquid",
-    "erb",
-    "lang-cfml",
-    "cfml",
-    "HTML (EEx)",
-    "HTML (Eex)",
-    "plist"
-  ],
-  "dart.flutterSdkPath": "/Users/servettuncel/flutter",
-  "editor.fontSize": 14,
-  "workbench.startupEditor": "none",
-  "editor.fontLigatures": true,
-  "vscode_custom_css.imports": [
-    "/Users/servettuncel/vscode-ligature/vscode_style.css"
-  ],
-  "vscode_custom_css.policy": true,
-  "dart.debugExternalPackageLibraries": false,
-  "dart.debugSdkLibraries": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "update.showReleaseNotes": false
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontFamily": "'Operator Mono Lig', Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    }
 }
